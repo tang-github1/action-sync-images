@@ -33,5 +33,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://gcr.io/celaraze/chemex:latest  docker://registry.cn-shenzhen.aliyuncs.com/tang_aly/tang_docker/chemex:latest
+        skopeo copy docker://celaraze/chemex:latest  docker://registry.cn-shenzhen.aliyuncs.com/tang_aly/tang_docker/chemex:latest
  
