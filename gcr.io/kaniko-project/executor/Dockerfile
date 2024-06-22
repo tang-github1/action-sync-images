@@ -1,2 +1,3 @@
-FROM gcr.io/kaniko-project/executor:latest
-LABEL MAINTAINER=master@weiyigeeek.top BUILDTYPE=Aliyun
+#FROM gcr.io/kaniko-project/executor:latest
+#LABEL MAINTAINER=master@weiyigeeek.top BUILDTYPE=Aliyun
+FROM celaraze/chemex:latest
